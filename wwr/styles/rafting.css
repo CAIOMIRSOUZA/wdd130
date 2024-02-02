@@ -15,7 +15,44 @@
   --nav-hover-background-color: var(--primary-color);
 }
 
-/* Styling headings and paragraph elements */
+body {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero img {
+  width: 100%;
+}
+
+.hero article img {
+  width: 200px;
+  float: right;
+}
+
+article {
+  position: absolute;
+  top: 60px;
+  width: 90%;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  background-color: rgba(147, 255, 255, 0.131);
+  padding: .5rem;
+}
+
+h1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+/* 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--primary-color);
@@ -26,16 +63,14 @@ p {
   color: var(--secondary-color);
 }
 
-/* Remove underlines from social media links */
 .sociallinks a {
   text-decoration: none;
 }
 
-/* Consider limiting the entire width of the page */
-/* body {
+body {
   max-width: 1200px;
   margin: 0 auto;
-} */
+}
 
 .hero {
   position: absolute;
@@ -45,11 +80,11 @@ p {
 .hero h1 {
   color: var(--primary-color);
   position: absolute;
-  top: 50%; /* Adjust as needed */
-  left: 50%; /* Adjust as needed */
-  transform: translate(-50%, -50%); /* Centering the h1 */
-  text-align: center; /* Align the text center */
-  z-index: 1; /* Ensure it's on top of the image */
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  text-align: center; 
+  z-index: 1; 
 }
 
 .hero img {
@@ -60,10 +95,9 @@ p {
 
 .hero article {
   position: absolute;
-  top: 10%; /* Adjust as needed */
-  left: 10%; /* Adjust as needed */
-  /* background-color: rgba(0, 0, 0, 0.7); */
-  padding: 20px; /* Adjust padding for readability */
-  color: white; /* Adjust text color for readability */
-}
-
+  top: 10%; 
+  left: 10%; 
+ 
+  padding: 20px; 
+  color: white;
+} */
