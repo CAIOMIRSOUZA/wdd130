@@ -16,8 +16,46 @@
 }
 
 body {
-  width: 800px;
+  width: 1500px;
   margin: 0 auto;
+  border-right: 1px solid var(--primary-color);
+  border-left: 1px solid var(--primary-color);
+}
+
+header {
+  background-color: var(--primary-color);
+  display: grid;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+}
+
+nav {
+  grid-column: 2/3;
+  margin: 1rem;
+  display: flex;
+}
+
+.button {
+  background-color: var(--secondary-color);
+  color: var(--accent1-color);
+  padding: .5rem;
+  text-decoration: none;
+  margin-left: .2rem;
+  border-radius: 4px;
+  border: 1px solid var(--secondary-color); 
+}
+
+.button:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+header img {
+  width: 150px;
+  height: auto;
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
 }
 
 .hero {
@@ -29,19 +67,24 @@ body {
 }
 
 .hero article img {
-  width: 200px;
+  width: 300px;
   float: right;
 }
 
 article {
   position: absolute;
-  top: 60px;
+  top: 150px;
   width: 90%;
   left: 0;
   right: 0;
   margin: 0 auto;
-  background-color: rgba(147, 255, 255, 0.131);
+  background-color: rgba(253, 253, 253, 0.285);
   padding: .5rem;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
 }
 
 h1 {
@@ -50,7 +93,74 @@ h1 {
   left: 0;
   right: 0;
   text-align: center;
+  font-size: 4rem;
 }
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.figures {
+  display: flex;
+  justify-content:space-around ;
+  padding-bottom: 3rem;
+}
+
+figure {
+  border: thin #c0c0c0 solid;
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  width: 250px;
+  margin: auto;
+}
+
+section img {
+  width: 250px;
+  height: 160px;
+}
+
+figcaption {
+  background-color: #222;
+  color: #fff;
+  font: italic smaller sans-serif;
+  padding: 3px;
+  text-align: center;
+}
+
+footer {
+  background-color: var(--primary-color);
+  display: grid;
+  align-items: center;
+  /* justify-content: right; */
+  padding: .5rem;
+}
+
+.sociallinks {
+  justify-content: end;
+  grid-column: 2/3;
+  margin: 1rem;
+  display: flex;
+}
+
+.sociallinks a {
+  margin-left: .5rem;
+}
+
+.sociallinks a {
+  padding: 0;
+  background-color: none;
+}
+
+footer p {
+  text-align: end;
+  height: auto;
+  position: relative;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
 
 /* 
 h1, h2, h3, h4, h5, h6 {
