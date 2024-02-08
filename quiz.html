@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML and CSS Quiz</title>
+  <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+  <header>
+    <h1>Basic HTML and CSS Quiz</h1>
+  </header>
+  <main>
+    <form>
+      <div class="question">
+        <label for="q1">1. Complete the sentence: HTML stands for HyperText Markup _____.
+          <input type="text" id="q1" name="q1" required>
+        </label>
+      </div>
+      <div class="question">
+        <label for="q2">2. How would you create a CSS rule for the 'body' with margin 0 and black borders?
+          <textarea id="q2" name="q2" rows="4" required></textarea>
+        </label>
+      </div>
+      <div class="question">
+        <label for="q3">3. What does the "C" in CSS stand for?
+          <select id="q3" name="q3" required>
+            <option value="" selected disabled>Choose One ...</option>
+            <option value="cascading">Cascading</option>
+            <option value="style">Style</option>
+            <option value="sheet">Sheet</option>
+          </select>
+        </label>
+      </div>
+      <div class="question">
+        <label for="q4">4. How many levels of headings are available in HTML?
+          <input type="number" id="q4" name="q4" required>
+        </label>
+      </div>
+      <button type="submit">Submit Quiz</button>
+    </form>
+  </main>
+</body>
+</html>
