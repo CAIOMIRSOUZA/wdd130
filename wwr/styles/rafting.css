@@ -161,8 +161,9 @@ h3 {
 }
 
 .title {
- font-size: 3.5rem;
- margin: 2rem;
+  position: relative;
+  font-size: 3.5rem;
+  margin: 2rem;
 }
 
 .card {
