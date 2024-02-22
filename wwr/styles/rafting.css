@@ -279,13 +279,13 @@ h5 {
 }
 
 .form-group label {
-  display: block;
+  /* display: block; */
   font-weight: bold;
 }
 
 .form-group input[type="checkbox"],
 .form-group input[type="radio"] {
-  display: inline-block;
+  /* display: inline-block; */
   margin-right: 10px;
 }
 
@@ -298,13 +298,13 @@ h5 {
 }
 
 .form-group-radio {
-  display: block;
+  /* display: block; */
   font-weight: bold;
   margin-top: 5px;
 }
 
 .form-group-checkbox {
-  display: block;
+  /* display: block; */
   font-weight: bold;
   padding-bottom: 20px;
 }
